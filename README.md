@@ -2,6 +2,8 @@
 
 Bot de Telegram que avisa cuando el streamer comienza directo en Twitch.
 
+![Twith Telegram Bot diagram](./twitch-telegram-bot.png)
+
 Este código puedes utilizarlo por ejemplo en una función AWS Lambda. En el momento de escribir esto, AWS ofrece 1 millón de ejecuciones gratuitas al mes para funciones AWS Lambda. La función AWS Lambda puedes invocarla a través de una URL usando Amazon API Gateway (también tiene free tier). Se recomienda usar un access token en dicha URL, como en el código de este repo.
 
 ## Cómo funciona
